@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "620712704055",
+    "firebase_url": "https://smart-guidance-517cb.firebaseio.com",
+    "project_id": "smart-guidance-517cb",
+    "storage_bucket": "smart-guidance-517cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620712704055:android:31cc890148d48898cd27b2",
+        "android_client_info": {
+          "package_name": "com.example.welc_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620712704055-ju7l9gdsi8v3bju9vjpee0874gm2cql1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3fXGQdG66bYgbHjGcqEZfiLmiEtp63_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620712704055-ju7l9gdsi8v3bju9vjpee0874gm2cql1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94CBC4"
+    tools:context="com.example.SmartGuidance_App.chat_classes.chat">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/conversation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/userInput"
+android:layoutDirection="rtl"
+        android:textSize="16sp" />
+
+
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+       android:background="@drawable/edit_text"
+        android:hint="اسأل المرشد الذكي"
+        android:inputType="text"
+        android:gravity="right"
+        android:textColor="#fff"
+        android:padding="12dp"
+        android:imeActionId="4"
+        android:imeOptions="actionSend"
+        android:textColorHint="#fff"
+        android:textSize="20sp"/>
+
+
+
+</RelativeLayout>

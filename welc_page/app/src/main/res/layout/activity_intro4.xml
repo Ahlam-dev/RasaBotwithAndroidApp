@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    android:gravity="center|center_horizontal|fill_horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+
+
+        android:layout_centerInParent="true"
+
+        android:padding="15dp"
+        android:text="إبحث عن اقرب موقع للمطاعم والفنادق إليك"
+        android:textColor="#5E807C"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_above="@id/textView"
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+
+        android:layout_centerInParent="true"
+
+        android:gravity="center_horizontal"
+
+        android:text="اقرب مكان"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:textColor="#688E8A"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+
+
+        android:layout_above="@id/textView2"
+        android:layout_marginTop="-90dp"
+
+        app:srcCompat="@drawable/mappic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignBottom="@id/textView"
+        android:layout_marginBottom="-90dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:textColor="#FC6681"
+            android:text="تجاهل"
+            android:textSize="25dp"
+
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/button70"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="التالي"
+            android:background="@drawable/buttonshape"
+            android:textColor="#FC6681"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

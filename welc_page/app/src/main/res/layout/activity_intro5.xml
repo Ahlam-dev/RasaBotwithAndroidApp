@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    android:gravity="center|center_horizontal|fill_horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+
+
+        android:layout_centerInParent="true"
+
+        android:padding="15dp"
+        android:text="يمكنني تزويدك بمعلومات عن أفضل فنادق جدة"
+        android:textColor="#5E807C"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_above="@id/textView"
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="65dp"
+
+        android:layout_centerInParent="true"
+
+        android:gravity="center_horizontal"
+
+        android:text="الفنادق"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:textColor="#688E8A"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+
+
+        android:layout_above="@id/textView2"
+        android:layout_marginTop="-90dp"
+
+        app:srcCompat="@drawable/hotelpic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignBottom="@id/textView"
+        android:layout_marginBottom="-90dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button80"
+            android:layout_width="394dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFD037"
+            android:text="العودة للصفحة الرئيسية"
+            android:textColor="#FC6681"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

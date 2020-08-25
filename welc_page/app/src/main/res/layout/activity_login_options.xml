@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94CBC4"
+    android:gravity="center|center_horizontal|fill_horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="243dp"
+            android:layout_height="29dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshap2"
+            android:text="تسجيل الدخول"
+            android:textColor="#94CBC5"
+
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="251dp"
+            android:layout_height="24dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshap2"
+            android:text="إنشاء حساب "
+            android:textColor="#94CBC5"
+
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
